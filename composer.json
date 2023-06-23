@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.15",
+        "textalk/websocket": "^1.6",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}

@@ -1,0 +1,137 @@
+/* 全体のスタイル */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: unset;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin: 20px 0;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 80%;
+}
+
+/* メッセージリストのスタイル */
+#message-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message-body {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.received .message-body {
+    background-color: #f2f2f2;
+}
+
+.sent .message-body {
+    background-color: #e2f3f5;
+    justify-self: flex-end;
+}
+
+.message-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.sender-info {
+    display: flex;
+    align-items: center;
+}
+
+.sender-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.sender-name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #888;
+}
+
+/* 入力領域のスタイル */
+#input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#message-input {
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#user-info {
+    position:absolute;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    left: 10px;
+    bottom: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#user-info img {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+}
+
+#user-info span {
+    margin-left: 32px;
+}
