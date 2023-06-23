@@ -5,7 +5,7 @@ School LINEとは、学校の授業中にPCで堂々とLINEをするために作
 # 使用方法
 [サイトにアクセスして](https://sc-line.rena-app.com/login.php)ログインしてください<br>
 セッションで管理しているため、ブラウザを閉じるなどをするとログアウトされます<br>
-ユーザーの登録方法は[こちらのページを参照](https://github.com/School-Line/dashboard)してください
+ユーザーの登録方法は[こちらのページを参照](https://github.com/School-Line/Web-Dashboard)してください
 
 # サーバーに組み込む
 ## 準備
@@ -14,7 +14,7 @@ School LINEとは、学校の授業中にPCで堂々とLINEをするために作
 2. `TOKEN HERE`と書いてある場所に適当な文字列を入れてください。セキュリティ強化です
 3. [WebSocketサーバー](https://github.com/School-Line/WebSocket-Server)を起動してください
 
-ユーザーの登録方法は[こちらのページを参照](https://github.com/School-Line/dashboard)してください
+ユーザーの登録方法は[こちらのページを参照](https://github.com/School-Line/Web-Dashboard)してください
 
 ## 公開方法
 ### Apacheの場合
